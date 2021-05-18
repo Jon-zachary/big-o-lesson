@@ -24,15 +24,15 @@ Putting it all together, without using google, what is log2(16)?
 From wikipedia:
 >In computer science, big O notation is used to classify algorithms according to how their running time or space requirements grow as the input size grows.
 
-Some key take aways from this. Big O does not give some exact runtime for an algorithm, rather it tells you that when the algorithm is run with more inputs it's run time will scale in a particular way.
+Some key takeaways from this: Big O does not give some exact runtime for an algorithm, rather it tells you that when the algorithm is run with more inputs it's run time will scale in a particular way.
 
 ## A tale of two searches.
 
-let's say I'm thinking of a number from 0-30, Ok, I'm actually thinking of a number!. When you guess I'm going to either tell you it's too high or two low.  let's go a head and think of an algo to guess it.
+let's say I'm thinking of a number from 0-30, Ok, I'm actually thinking of a number!. When you guess I'm going to either tell you it's too high or two low.  let's go ahead and think of an algorithm to guess it.
 
 The easiest approach might be to start at 1 and work your way up. What's the worst case scenario for that approach? What number would I have to have picked to make you take the maximum number of guesses and how many guesses would that be?
 
-Let's think of a quicker way. Is there a way where each guess can eliminate more numbers than just itself if it's wrong? This algo is called a binary search. let's pseudo code it and talk about it's big O.
+Let's think of a quicker way. Is there a way where each guess can eliminate more numbers than just itself if it's wrong? This algorithm is called a binary search. let's pseudo code it and talk about it's big O.
 
 If we have time: naive two sum vs hash two sum, fibonacci.
 
